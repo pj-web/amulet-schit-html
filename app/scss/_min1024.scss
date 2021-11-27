@@ -1,0 +1,22 @@
+@media (min-width: 1024px) {
+    .header {
+        &__title {
+
+            span {
+                font-size: 42px;
+            }   
+        }
+
+        &__text {
+            &:nth-child(4), &:nth-child(5) {
+                display: inline-block;
+            }
+        }
+    }
+
+    .button {
+        padding: 18px 46px;
+    }
+
+    
+}
