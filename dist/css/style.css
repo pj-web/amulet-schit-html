@@ -165,7 +165,7 @@ h2.accordion-header button {
 }
 
 ul li {
-  list-style: outside url("../icons/list-style.svg");
+  list-style: outside url("../icons/schit-icon-small.svg");
 }
 
 li {
@@ -189,8 +189,10 @@ img {
   left: 10%;
   right: 10%;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.1;
   text-align: center;
+  font-weight: 600;
+  font-style: italic;
   background: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
 }
@@ -611,6 +613,10 @@ span.marker {
   background: linear-gradient(180deg, #A5D3FF 0%, #7A8FA4 100%);
 }
 
+.problems__list-item {
+  list-style: outside url("../icons/no.svg");
+}
+
 .history {
   background: -webkit-gradient(linear, left top, left bottom, from(#A5D3FF), to(#7A8FA4));
   background: -o-linear-gradient(top, #A5D3FF 0%, #7A8FA4 100%);
@@ -623,9 +629,27 @@ span.marker {
   background: linear-gradient(180deg, #A5D3FF 0%, #7A8FA4 100%);
 }
 
+.effects__item {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 4px 4px #7A8FA4;
+          box-shadow: 0px 4px 4px #7A8FA4;
+  padding: 10px 20px 10px 20px;
+  height: 100%;
+}
+
 .who-should-buy {
   background-image: url("../images/schit-pattern.png");
   background-repeat: repeat;
+}
+
+.who-should-buy__list-item {
+  list-style: outside url("../icons/circle-check.svg");
+}
+
+.instruction {
+  background: -webkit-gradient(linear, left top, left bottom, from(#c8cbe7), to(#89a5c0));
+  background: -o-linear-gradient(top, #c8cbe7 0%, #89a5c0 100%);
+  background: linear-gradient(180deg, #c8cbe7 0%, #89a5c0 100%);
 }
 
 .offer {
@@ -749,12 +773,6 @@ span.marker {
 
 .buy__image {
   cursor: pointer;
-}
-
-.instruction {
-  background: -webkit-gradient(linear, left top, left bottom, from(#E7FFD0), to(#B0EB99));
-  background: -o-linear-gradient(top, #E7FFD0 0%, #B0EB99 100%);
-  background: linear-gradient(180deg, #E7FFD0 0%, #B0EB99 100%);
 }
 
 .composition {
