@@ -930,6 +930,16 @@ span.marker {
   height: 400px;
 }
 
+.table {
+  width: 100%;
+}
+
+.cell {
+  padding: 10px;
+  border: 1px solid #7a7a7a;
+  text-align: center;
+}
+
 @media (min-width: 375px) {
   .header__title {
     font-size: 24px;
