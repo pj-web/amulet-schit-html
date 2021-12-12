@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="images/2g-logo-120.png" alt="2g slim логотип">  
+          <img src="images/amilet-schit-logo.png" width="120" alt="2g slim логотип">  
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -50,7 +50,7 @@
               <span class="header__text"><span class="bold">Бесплатная доставка</span> по России</span>
               <span class="header__text"><span class="bold">Онлайн</span> оформление заказа</span>
               <span class="header__text"><span class="bold">Адрес:</span> 113569, г. Москва, ул. Пресненский Вал, д.9, стр.15, офис. 9а</span>
-              <span class="header__text"><span class="bold">email: <a href="mailto:info@2gslim-official.ru">info@2gslim-official.ru</a></span></span>
+              <span class="header__text"><span class="bold">email: <a href="mailto:info@amulet-schit.ru">info@amulet-schit.ru</a></span></span>
               <!-- Button trigger modal -->
               <button type="button" class="button btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Заказать амулет
@@ -64,19 +64,9 @@
                     </div>
                     <div class="modal-body">
                       <div class="header__forma">
-                        <form class="header__form" id="toform" action="api.php" method="POST">
-                          <input type='hidden'
-                                            name='utm_source' value='<?=$_GET['utm_source']?>' /> <input type='hidden'
-                                            name='utm_content' value='<?=$_GET['utm_content']?>' /> <input type='hidden'
-                                            name='utm_campaign' value='<?=$_GET['utm_campaign']?>' /> <input
-                                            type='hidden' name='utm_term' value='<?=$_GET['utm_term']?>' /> <input
-                                            type='hidden' name='utm_medium' value='<?=$_GET['utm_medium']?>' /> <input
-                                            type='hidden' name='sub_id1' value='<?=$_GET['sub_id1']?>' /> <input
-                                            type='hidden' name='sub_id2' value='<?=$_GET['sub_id2']?>' /> <input
-                                            type='hidden' name='sub_id3' value='<?=$_GET['sub_id3']?>' /> <input
-                                            type='hidden' name='comment' value='<?=$_GET['comment']?>' />
-                            <div class="header__price">По акции <br> за <span class="new_price">168</span> <span class="currency_price">руб.</span>!*</div>
-                            <div class="header__form-title">Только <span class="date">сегодня</span> по акции за <span class="price-val new_price">168</span> <span class="currency_price">руб.</span>!* Успей заказать!</div>
+                        <form class="header__form" id="toform" action="order.php" method="POST">
+                            <div class="header__price">По акции <br> за <span class="new_price">152</span> <span class="currency_price">руб.</span>!*</div>
+                            <div class="header__form-title">Успей заказать!</div>
                             <div class="header__countdown">
                                 <label class="header__countdown-label">Акция закончится через:</label>
                                 <div class="header__countdown-items">
@@ -87,15 +77,11 @@
                                     <div class="header__countdown-item"><span class="second1">0</span><span class="second2">0</span><span class="right">с.</span></div>
                                 </div>
                             </div>
-                            <select name="country" id="country" class="country__selecor">
-                <option value="RU">Россия</option>
-              </select>
                             <label class="header__form-label" for="name">Ваше имя</label>
                             <input class="header__form-input" id="name" name="name" type="text" required>
                             <label class="header__form-label" for="phone">Контактный телефон</label>
                             <input class="header__form-input phone-black" id="phone" name="phone" type="text" placeholder="+ (7)" required>
-                            <button class="header__form-btn" type="submit">Получить</button>
-                            <span class="header__form-pri">*при заказе курса</span>
+                            <button class="header__form-btn" type="submit">Заказать</button>
                         </form>
                     </div>
                     </div>
@@ -103,13 +89,8 @@
                 </div>
               </div>
             </div>
-            
-
           </div>
-          
         </div>
-        
       </div>
-
     </div>
   </header>

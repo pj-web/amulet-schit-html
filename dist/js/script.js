@@ -10,7 +10,7 @@ const scrollLinks = document.querySelectorAll('.scroll__link[data-goto]');
             const scrollLink = e.target;
             if (scrollLink.dataset.goto && document.querySelector(scrollLink.dataset.goto)) {
                 const gotoBlock = document.querySelector(scrollLink.dataset.goto);
-                const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset - document.querySelector('header').offsetHeight/40;
+                const gotoBlockValue = gotoBlock.getBoundingClientRect().top + scrollY - document.querySelector('header').offsetHeight/50;
 
                 window.scrollTo({
                     top:gotoBlockValue,
