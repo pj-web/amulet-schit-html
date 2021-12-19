@@ -1,30 +1,5 @@
 "use strict"
 
-
-// const scrollLinks = document.querySelectorAll('.scroll__link[data-goto]');
-//     if (scrollLinks.length > 0) {
-//         scrollLinks.forEach(scrollLink => {
-//             scrollLink.addEventListener("click", onScrollLinkClick);
-//         });
-        
-
-//         function onScrollLinkClick(e) {
-//             const scrollLink = e.target;
-//             if (scrollLink.dataset.goto && document.querySelector(scrollLink.dataset.goto)) {
-                
-//                 const gotoBlock = document.querySelector(scrollLink.dataset.goto);
-//                 const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset - document.querySelector('header').offsetHeight/20;
-
-//                 window.scrollTo({
-//                     top:gotoBlockValue,
-//                     behavior: "smooth"
-//                 });
-//                 e.preventDefault();
-//             }
-//         }
-//     }
-
-
     document.addEventListener('DOMContentLoaded', function(){ 
 
         var deadline = new Date();
@@ -89,5 +64,6 @@
     initializeClock(deadline);
     
     });
-    
+
+
     

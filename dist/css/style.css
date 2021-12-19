@@ -236,6 +236,11 @@ span.marker {
   text-align: center;
 }
 
+.header__logo {
+  padding: 0;
+  margin: 20px auto;
+}
+
 .header__title {
   font-size: 20px;
   line-height: 120%;
@@ -281,12 +286,6 @@ span.marker {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.header__logo {
-  width: 30%;
-  text-align: center;
-  padding-left: 15px;
 }
 
 .header__descr {
@@ -472,6 +471,7 @@ span.marker {
 
 .header__form-pri {
   font-size: 12px;
+  line-height: 1;
 }
 
 .header__form-date {
@@ -938,6 +938,7 @@ span.marker {
 
 .table {
   width: 100%;
+  text-align: center;
 }
 
 .cell {
